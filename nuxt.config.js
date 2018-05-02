@@ -1,5 +1,6 @@
 const axios = require('axios')
 module.exports = {
+  mode: 'spa',
   /*
   ** Headers of the page
   */
@@ -25,6 +26,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    mode: 'spa',
     /*
     ** Run ESLint on save
     */
