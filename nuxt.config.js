@@ -41,7 +41,7 @@ module.exports = {
   },
   plugins: ['~/plugins/components.js'],
   modules: [
-    ['storyblok-nuxt', { accessToken: '7HYrmc3qfhLYQLwrChtG9Att', cacheProvider: 'memory' }]
+    ['storyblok-nuxt', { accessToken: 'gaXoQHo5ejEZFTGXgP8yqgtt', cacheProvider: 'memory' }]
   ],
   generate: {
     routes: function () {
