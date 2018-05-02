@@ -1,6 +1,5 @@
 const axios = require('axios')
-module.exports = {
-  mode: 'spa',
+module.exports = {,
   /*
   ** Headers of the page
   */
