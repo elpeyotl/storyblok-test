@@ -1,5 +1,5 @@
 const axios = require('axios')
-module.exports = {,
+module.exports = {
   /*
   ** Headers of the page
   */
