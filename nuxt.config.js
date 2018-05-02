@@ -1,3 +1,4 @@
+const axios = require('axios')
 module.exports = {
   /*
   ** Headers of the page
@@ -41,5 +42,13 @@ module.exports = {
   plugins: ['~/plugins/components.js'],
   modules: [
     ['storyblok-nuxt', { accessToken: 'gaXoQHo5ejEZFTGXgP8yqgtt', cacheProvider: 'memory' }]
-  ]
+  ],
+  generate: {
+    routes: function () {
+        return [
+          '/about',
+          '/home'
+        ]
+    }
+  }
 }
