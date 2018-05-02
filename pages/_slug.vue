@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section v-editable="story">
     <component v-if="story.content.component" :key="story.content._uid" :blok="story.content" :is="story.content.component"></component>
   </section>
 </template>
@@ -70,18 +70,18 @@ export default {
   flex: 1;
 
   width: 50%;
-  
+
   box-shadow: 0px 1px 10px 0px #ccc;
   border: 1px solid #ddd;
   margin: 20px;
   padding: 20px;
 }
 
-body { 
-  font-family: 'Lato', sans-serif; 
-} 
+body {
+  font-family: 'Lato', sans-serif;
+}
 
-.rebuilding { 
+.rebuilding {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -90,9 +90,9 @@ body {
   background: green;
   padding: 10px;
   color: #fff;
-} 
+}
 
-footer { 
-  text-align: center; 
+footer {
+  text-align: center;
 }
 </style>
